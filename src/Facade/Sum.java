@@ -1,9 +1,9 @@
 package Facade;
 
 public class Sum {
-	public static Double sum(Double ... args) {
-		Double sum = 0;
-		for (Double x: args) {
+	public static double sum(double ... args) {
+		double sum = 0;
+		for (double x: args) {
 			sum += x;
 		}
 		return sum;

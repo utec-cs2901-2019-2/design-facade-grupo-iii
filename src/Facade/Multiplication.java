@@ -2,13 +2,13 @@ package Facade;
 
 public class Multiplication {
 
-	public static double multiply(double... args){
-		double result = 1;
+  public static double multiply(double... args) {
+    double result = 1;
 
-		for (double x : args) {
-			result = result * x;
-		}
+    for (double x : args) {
+      result = result * x;
+    }
 
-		return results;
-	}
+    return result;
+  }
 }
